@@ -1,2 +1,2 @@
-# GoldCardCommunity.github.io
+# Gold Card Community
 Public Page
