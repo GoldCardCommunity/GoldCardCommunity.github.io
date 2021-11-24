@@ -30,7 +30,7 @@ function App() {
 					<ProjectsSection />
 					<Grid item xs={12} mt={20} mb={20}><Divider orientation="horizontal" /></Grid>
 					<MembersSection />
-
+					<code>v0.1</code>
 				</Grid>
 			</Container>
 		</div>
