@@ -16,7 +16,7 @@ export const BqbProject = (props) => (
 
 	<Paper variant="outlined">
 
-		<Grid container justifyContent="center" alignItems="center" p={2}>
+		<Grid container justifyContent="center" alignItems="center" py={2} px={1}>
 
 			<Grid item xs={12}>
 				<Box textAlign="center">
