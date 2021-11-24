@@ -31,8 +31,9 @@ export const MembersSection = (props) => (
 		<Grid container justifyContent="center" alignItems="center" mt={1} pb={50}>
 			<Grid item xs={12} md={10} lg={8}>
 
-				<Box textAlign="center" mt={4}>
+				<Box textAlign="center" mt={7}>
 					<Typography variant="body2">
+						<pre>[...TODO...]</pre><br />
 						coming soon...
 					</Typography>
 				</Box>
