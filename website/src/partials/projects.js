@@ -51,7 +51,7 @@ export const ProjectSection = (props) => (
 
 
 		<Grid container justifyContent="center" alignItems="center" mt={5}>
-			<Grid item xs={11}>
+			<Grid item xs={12} lg={11}>
 				<BqbProject />
 			</Grid>
 		</Grid>
