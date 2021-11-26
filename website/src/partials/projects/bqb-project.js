@@ -8,6 +8,7 @@ import {
 	Typography,
 } from '@mui/material';
 import ExternalLink from '../../components/external-link.js';
+import EmailLink from '../../components/mailto-link.js';
 
 import bqbLogo from '../../assets/bqb-logo.png';
 
@@ -76,7 +77,7 @@ export const BqbProject = (props) => (
 					<ExternalLink url="https://github.com/GoldCardCommunity/better-quarantine-bookings/discussions">Join the Discussion</ExternalLink>
 				</Grid>
 				<Grid item>
-					<ExternalLink url="#">Join the Project</ExternalLink>
+					<EmailLink variant="emailAction" email="marcin.k.cebula@gmail.com" subject="Add me to [BQB] Better Quarantine Bookings ">Join the Project</EmailLink>
 				</Grid>
 
 			</Grid>

@@ -8,7 +8,7 @@ import {
 import ExternalLink from '../components/external-link.js';
 
 import gccLogo from '../assets/gcc-logo-round.png';
-
+import EmailLink from '../components/mailto-link.js';
 
 export const HomeSection = (props) => (
 	<React.Fragment>
@@ -72,7 +72,7 @@ export const HomeSection = (props) => (
 				<Box textAlign="center" mt={6}>
 					<Typography variant="body2">
 						If you want to get involved, contribute or give feedback you
-						can message me at <Link color="#616161" href="mailto:marcin.k.cebula@gmail.com">marcin.k.cebula@gmail.com</Link><br />
+						can message me at <EmailLink variant="emailDefault" email="marcin.k.cebula@gmail.com" subject="Add me to GCC Labs">marcin.k.cebula@gmail.com</EmailLink><br />
 						or join the project on <ExternalLink url="https://github.com/GoldCardCommunity/goldcardcommunity.github.io/discussions">GitHub</ExternalLink>.
 					</Typography>
 				</Box>

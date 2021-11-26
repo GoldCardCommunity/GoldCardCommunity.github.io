@@ -32,15 +32,33 @@ let theme = createTheme({
 			letterSpacing: '0px',
 			fontFamily: 'Dosis, sans-serif'
 		},
+    h6: {
+			color: '#616161',
+			fontWeight: '300',
+			letterSpacing: '0px',
+			textTransform: 'uppercase'
+		},
+		emailAction: {
+			color: '#FF4B55',
+			fontSize: '20px',
+			fontWeight: '500',
+			letterSpacing: '0.15px'
+		},
+		emailDefault: {
+			color: '#757575',
+			fontSize: '20px',
+			fontWeight: '300',
+			letterSpacing: '0.15px'
+		},
 		body1: {
 			color: '#616161',
-			fontSize: '22px',
+			fontSize: '20px',
 			fontWeight: '400',
 			letterSpacing: '0.15px',
 		},
 		body2: {
 			color: '#616161',
-			fontSize: '22px',
+			fontSize: '20px',
 			fontWeight: '300',
 			letterSpacing: '0.15px',
 		},

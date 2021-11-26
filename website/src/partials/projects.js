@@ -24,7 +24,7 @@ export const ProjectSection = (props) => (
 			</Grid>
 		</Grid>
 
-		<Grid container justifyContent="center" alignItems="center" mt={3}>
+		<Grid container justifyContent="center" alignItems="center" mt={1}>
 			<Grid item xs={12}>
 				<Box textAlign="center">
 					<Typography variant="h6">
@@ -39,7 +39,7 @@ export const ProjectSection = (props) => (
 		<Grid container justifyContent="center" alignItems="center" mt={1}>
 			<Grid item xs={12} md={11} lg={10}>
 
-				<Box textAlign="center" mt={4}>
+				<Box textAlign="center" mt={2}>
 					<Typography variant="body2">
 						Below you can find projects the community is involved in and working on. If you want to address
 						a problem or create new projects please submit a <ExternalLink url="https://github.com/GoldCardCommunity/goldcardcommunity.github.io/discussions/2">Discussion</ExternalLink> to the group first.
